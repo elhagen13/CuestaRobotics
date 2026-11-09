@@ -138,14 +138,18 @@ button{
     height: fit-content;
 }
 
-.pro-list{
+.pro-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
     width: fit-content;
-    flex-wrap: wrap
 }
 
-.pro-list div{
-   font-size: 0.8rem;
-   word-wrap: none;
+.pro-list div {
+    flex: 0 0 auto;
+    font-size: 0.8rem;
+    white-space: nowrap;
 }
 
 .image-container{
@@ -171,7 +175,7 @@ button{
 
 }
 
-#hero div{
+#hero > div{
     flex-grow: 1;
 }
 
