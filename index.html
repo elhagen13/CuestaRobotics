@@ -3,133 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cuesta Robotics — build, compete, and learn with GyreForm Robotics at Cuesta College.">
+  <meta name="description" content="Build, compete, and learn with Cuesta Robotics">
   <title>GyreForm Robotics | Cuesta Robotics</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main_styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Cuesta Robotics home">
-      <span class="brand-mark">G<span>F</span></span>
-      <span class="brand-name">CUESTA <strong>ROBOTICS</strong><small>GYREFORM • STUDENT TEAM</small></span>
-    </a>
-    <nav class="main-nav" aria-label="Main navigation">
-      <a href="#mission">About</a>
-      <a href="#teams">Teams</a>
-      <a href="#crew">Leadership</a>
-      <a href="#visit">Meetings</a>
-    </nav>
-    <a class="button button-small" href="https://forms.gle/" target="_blank" rel="noopener">Join the club <span>↗</span></a>
+  <header>
+    <div class="logo">AQ</div>
+    Cuesta Robotics
   </header>
 
   <main>
-    <section class="hero section-shell" id="home">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> OPEN TO ALL MAJORS <span class="eyebrow-divider">/</span> NO EXPERIENCE REQUIRED</p>
-        <h1>Build.<br><span>Compete.</span><br>Learn<span class="accent">.</span></h1>
-        <p class="hero-intro">Home of <strong>GyreForm Robotics</strong>. We design, build, and program robots for real competitions. Whether you're into mechanical design, electronics, software, or media &amp; operations — there's a place for you.</p>
-        <div class="hero-actions">
-          <a class="button" href="https://forms.gle/" target="_blank" rel="noopener">Join the club <span>↗</span></a>
-          <a class="text-link" href="#mission">Explore the team <span>↓</span></a>
+    <section id="hero">
+        <div class="flex-vert details">
+        <div class="tagline">
+            <div class="bullet"></div>
+            Open to all majors • No experience required
         </div>
-        <div class="hero-points">
-          <span>01 / Hands-on builds</span>
-          <span>02 / Mentors &amp; workshops</span>
-          <span>03 / Resume-ready projects</span>
+        <h1>Build. Compete. Learn.</h1>
+        <h4 class="secondary-header">Home of the AquaCats</h4>
+        <span>Cuesta Robotics designs, builds, and programs robots for real competitions. Whether you're into mechanical design, electronics, software, or 
+        media & operations - there's a place for you.</span>
+        <button>Join the Club</button>
+        <div class="pro-list flex-horiz">
+            <div>• Hands-on builds</div>
+            <div>• Mentors & workshops</div>
+            <div>• Resume-ready projects</div>
         </div>
-      </div>
-      <div class="hero-visual" aria-label="Decorative robotics illustration">
-        <div class="visual-topline"><span>GYREFORM / SYSTEM 001</span><span>35° 07' N — 120° 35' W</span></div>
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="robot-art">
-          <div class="robot-antenna"></div>
-          <div class="robot-head"><span class="robot-eye"></span><span class="robot-eye"></span></div>
-          <div class="robot-neck"></div>
-          <div class="robot-body"><span class="body-panel"></span><span class="body-light"></span></div>
-          <div class="robot-arm arm-left"></div><div class="robot-arm arm-right"></div>
-          <div class="robot-leg leg-left"></div><div class="robot-leg leg-right"></div>
-          <div class="robot-foot foot-left"></div><div class="robot-foot foot-right"></div>
         </div>
-        <div class="visual-label label-a">FIG. 01 <b>PROTOTYPE / IN PROGRESS</b></div>
-        <div class="visual-label label-b">ENGINEERED TO LEARN<span>● LIVE SYSTEM</span></div>
-        <div class="visual-cross cross-a">+</div><div class="visual-cross cross-b">+</div>
-        <div class="visual-bottomline"><span>MECHANICAL / ELECTRICAL / SOFTWARE</span><span>GFR_2026</span></div>
-      </div>
-    </section>
-
-    <section class="ticker" aria-label="Club focus areas">
-      <div>DESIGN <span>✳</span> BUILD <span>✳</span> TEST <span>✳</span> COMPETE <span>✳</span> REPEAT <span>✳</span> DESIGN <span>✳</span> BUILD <span>✳</span> TEST <span>✳</span> COMPETE <span>✳</span></div>
-    </section>
-
-    <section class="section section-shell mission" id="mission">
-      <div class="section-kicker"><span>01</span> / THE MISSION</div>
-      <div class="mission-content">
-        <h2>Curiosity turns<br>into <em>capability.</em></h2>
-        <div class="mission-text">
-          <p>Our mission is to provide a welcoming space to all who would like to learn about robot technology via hands-on project development for competitions. The club also strives to establish a community that supports STEAM students with current and future career goals.</p>
-          <p>We’re a student-run team building robots from the ground up. Members split across sub-teams and come together to ship competition-ready systems. New to robotics? Perfect. We’ll teach you.</p>
+        <div class="image-container">
+            <img src="/group_photo.jpeg"></img>
         </div>
-      </div>
-    </section>
 
-    <section class="section section-shell teams" id="teams">
-      <div class="section-heading">
-        <div><div class="section-kicker"><span>02</span> / FIND YOUR PLACE</div><h2>Four disciplines.<br><em>One team.</em></h2></div>
-        <p>Different skills, shared momentum. Find the area that excites you — and build something that works in the real world.</p>
-      </div>
-      <div class="team-grid">
-        <article class="team-card team-mech"><div class="card-number">01 — ENGINEERING</div><div class="team-icon">⌘</div><h3>Mechanical</h3><p>CAD, machining, drivetrains, mechanisms.</p><span class="card-arrow">↗</span></article>
-        <article class="team-card team-elec"><div class="card-number">02 — HARDWARE</div><div class="team-icon">ϟ</div><h3>Electrical</h3><p>Power, wiring, PCBs, sensors, safety.</p><span class="card-arrow">↗</span></article>
-        <article class="team-card team-soft"><div class="card-number">03 — SOFTWARE</div><div class="team-icon">&lt;/&gt;</div><h3>Software</h3><p>Control, computer vision, autonomy, simulation.</p><span class="card-arrow">↗</span></article>
-        <article class="team-card team-media"><div class="card-number">04 — COMMUNITY</div><div class="team-icon">✳</div><h3>Media &amp; Operations</h3><p>Sponsorships, socials, events, logistics.</p><span class="card-arrow">↗</span></article>
-      </div>
     </section>
-
-    <section class="section feature-section">
-      <div class="section-shell feature-grid">
-        <div class="feature-visual feature-one"><span class="image-tag">FIELD NOTES / 001</span><div class="blueprint-grid"></div><div class="gear gear-large">⚙</div><div class="feature-stamp">BUILD<br>REAL<br>THINGS.</div></div>
-        <div class="feature-copy"><div class="section-kicker"><span>03</span> / WHY ROBOTICS</div><p class="feature-index">01 — HANDS-ON</p><h2>Build real<br><em>robots.</em></h2><p>From first bolt to final code commit, ship hardware that moves and works. Learn by making, testing, breaking, and improving.</p></div>
-        <div class="feature-copy feature-copy-second"><p class="feature-index">02 — COMPETITIVE</p><h2>Compete &amp;<br><em>showcase.</em></h2><p>Enter regional events, demos, and outreach days to test your work, share what you’ve learned, and represent the team.</p></div>
-        <div class="feature-visual feature-two"><span class="image-tag">SYSTEMS / 002</span><div class="radar-rings"></div><div class="feature-stamp stamp-two">MAKE<br>IT<br>MATTER.</div></div>
-        <div class="feature-visual feature-three"><span class="image-tag">GROWTH / 003</span><div class="code-lines"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="feature-stamp stamp-three">SKILLS<br>THAT<br>TRAVEL.</div></div>
-        <div class="feature-copy"><p class="feature-index">03 — CAREER-READY</p><h2>Grow your<br><em>portfolio.</em></h2><p>Document builds, publish code, and earn leadership experience. Leave with projects and practical skills you can show the world.</p></div>
-      </div>
+    <section class="section-style">
+        <h1>Our Mission</h1>
+        <div class="separator"></div>
+        <h4>
+            Our mission is to provide a welcoming space to all who would like to learn about robot technology via hands-on project 
+            development for competitions. The club also strives to establish a community that supports STEAM students with current
+            and future career goals.
+        </h4>
     </section>
+    <section class="section-style">
+        <h1>A Thank You to Our Sponsors</h1>
+        <h4>sponsor logos...</h4>
 
-    <section class="section section-shell crew" id="crew">
-      <div class="section-heading crew-heading"><div><div class="section-kicker"><span>04</span> / THE PEOPLE BEHIND IT</div><h2>Meet the <em>crew.</em></h2></div><p>The student leaders directing the mission, managing the logistics, and building the future of Cuesta Robotics.</p></div>
-      <div class="crew-grid">
-        <article class="person-card"><div class="portrait portrait-1"><span>JI</span><small>TEAM / 01</small></div><h3>James Isidro</h3><p class="role">President</p><p>Leads the team, directs weekly administrative meetings, and keeps members moving toward shared goals. James is focused on building a club that lasts beyond his time at Cuesta and gives community college students hands-on STEM experience.</p></article>
-        <article class="person-card"><div class="portrait portrait-2"><span>KP</span><small>TEAM / 02</small></div><h3>Kaito Pangelinan</h3><p class="role">Vice President</p><p>Connects the team’s administrative and technical work, supports communication, and contributes to software development. Kaito wants to create a strong, supportive environment where members can explore what interests them.</p></article>
-        <article class="person-card"><div class="portrait portrait-3"><span>AM</span><small>TEAM / 03</small></div><h3>Albert Medrano-Lopez</h3><p class="role">Project Manager</p><p>Heads the technical leads and guides production toward a functioning competition robot. Albert uses industry experience and software knowledge to improve team efficiency and build confidence.</p></article>
-        <article class="person-card"><div class="portrait portrait-4"><span>LM</span><small>TEAM / 04</small></div><h3>Landon Morton</h3><p class="role">Marketing &amp; Outreach</p><p>Coordinates sponsorships, team events, recruitment, and the logistics that keep the organization running. Landon works to broaden the team’s network and create opportunities for members.</p></article>
-        <article class="person-card"><div class="portrait portrait-5"><span>JB</span><small>TEAM / 05</small></div><h3>Jozette Butkus</h3><p class="role">Treasurer</p><p>Manages budgeting, team spending, and coordination with Cuesta College’s financial team. Jozette is focused on securing funding so members can take part in educational events and competitions.</p></article>
-        <article class="person-card"><div class="portrait portrait-6"><span>AM</span><small>TEAM / 06</small></div><h3>Alexa Min</h3><p class="role">Safety Officer</p><p>Leads safety education, reinforces proper procedures, and helps ensure members have the training and equipment needed to work safely with tools, electronics, and robot systems.</p></article>
-      </div>
     </section>
-
-    <section class="visit-section" id="visit">
-      <div class="section-shell visit-inner">
-        <div class="section-kicker"><span>05</span> / COME SAY HI</div>
-        <div class="visit-main"><h2>Your next build<br>starts <em>here.</em></h2><p>We welcome new members all term. Swing by a meeting to meet the team, see current builds, and find out where you can contribute.</p><a class="button button-light" href="https://forms.gle/" target="_blank" rel="noopener">Join GyreForm Robotics <span>↗</span></a></div>
-        <div class="visit-details">
-          <div><span class="detail-label">WHEN</span><strong>Fridays, 2–4 pm</strong></div>
-          <div><span class="detail-label">WHERE</span><strong>Room 3311<br>Right Side of the Student Success Center</strong></div>
-          <div><span class="detail-label">SAY HELLO</span><a href="mailto:info@cuestarobotics.com">info@cuestarobotics.com</a></div>
+    <section class="club-opportunity-container">
+        <div class="club-opportunity">
+            <img src="/opportunity-one.jpeg"></img>
+            <div class="opportunity-description">
+            <div class="tagline">Hands-on</div>
+            <h3>Build real robots</h3>
+            <h4>From first bolt to final code commit, ship hardware that moves and works.</h4>
+            </div>
         </div>
-        <div class="visit-bottom"><span>CUESTA COLLEGE / SAN LUIS OBISPO, CA</span><span>ALL MAJORS. ALL SKILL LEVELS.</span></div>
-      </div>
+        <div class="club-opportunity">
+            <img src="/opportunity-two.jpeg"></img>
+            <div class="opportunity-description">
+            <div class="tagline">Competitive</div>
+            <h3>Compete & showcase</h3>
+            <h4>Enter regional events, demos, and outreach days to test and share your work.</h4>
+            </div>
+        </div>
+        <div class="club-opportunity">
+            <img src="/opportunity-three.jpeg"></img>
+            <div class="opportunity-description">
+            <div class="tagline">Career-ready</div>
+            <h3>Grow your portfolio</h3>
+            <h4>Document builds, publish code, and earn leadership experience.</h4>
+            </div>
+
+        </div>
+       
     </section>
+    <section class="section-style join">
+        <div>
+        <h1>Interested in Joining?</h1>
+        <h2>Come In & Say Hi 👋</h2>
+        <h4>We welcome new members all term! Swing by a member to meet the team and see current builds.</h4>
+        <div class="meeting-info">
+            <div><label>When</label>Mondays, 4-5:30pm</div>
+            <div><label>Where</label>Room 3311, Right Side of the Student Success Center</div>
+            <div><label>Mail</label>info@cuestarobotics.com</div>
+        </div>
+        </div>
+        <div class="image-container">
+            <img src="/location.jpeg"></img>
+        </div>
+        
+    </section>
+
+    
   </main>
 
-  <footer class="site-footer">
-    <a class="brand footer-brand" href="#home"><span class="brand-mark">G<span>F</span></span><span class="brand-name">CUESTA <strong>ROBOTICS</strong><small>GYREFORM • STUDENT TEAM</small></span></a>
-    <span>© 2026 GyreForm Robotics @ Cuesta College</span>
-    <div class="social-links"><a href="https://discord.gg/" target="_blank" rel="noopener">Discord ↗</a><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram ↗</a></div>
+  <footer>
   </footer>
 </body>
 </html>
