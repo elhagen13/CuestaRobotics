@@ -140,6 +140,7 @@ button{
 
 .pro-list{
     width: fit-content;
+    flex-wrap: wrap
 }
 
 .pro-list div{
